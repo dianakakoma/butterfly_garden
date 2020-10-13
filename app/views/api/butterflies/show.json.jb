@@ -1,0 +1,5 @@
+{
+  id: @butterfly.id,
+  name: @butterfly.name,
+  region: @butterfly.region
+}

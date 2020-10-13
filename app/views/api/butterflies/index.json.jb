@@ -1,0 +1,7 @@
+@butterflies.map do |butterfly|
+  {
+    id: butterfly.id,
+    name: butterfly.name,
+    region: butterfly.region
+}
+end
