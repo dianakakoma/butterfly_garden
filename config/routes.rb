@@ -8,6 +8,7 @@ Rails.application.routes.draw do
   get "/butterflies" => "butterflies#index"
   get "/butterflies/:id" => "butterflies#show"
   post "/butterflies" => "butterflies#create"
+  post '/items' => 'items#create'
   end
 
 end
